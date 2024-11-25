@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <style type="text/css">
+      table, th, td { border: 0.3px solid; border-collapse: collapse; } th
+      {height: 70px; background-color: antiquewhite;} td {height: 33px; width:
+      185px; background-color: #fffcf7; text-align: center;}
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <h2> Планирования задач:</h2>
+
+      <tbody>
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Start time</th>
+              <th>End time</th>
+              <th>Priority</th>
+
+            </tr>
+          </thead>
+          {{#each name}}
+            <tr>
+              <td style="font-weight: bold;">{{id}}</td>
+              <td>{{nameTask}}</td>
+              <td>{{startTask}}</td>
+              <td>{{endTask}}</td>
+              <td>{{controlTask}}</td>
+            </tr>
+
+          {{/each}}
+        </table>
+      </tbody>
+
+    </div>
+
+  </body>
+</html>
