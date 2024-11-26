@@ -1,0 +1,21 @@
+table,
+th,
+td {
+  border: 0.3px solid;
+  border-collapse: collapse;
+}
+th {
+  height: 70px;
+  background-color: antiquewhite;
+}
+
+td {
+  height: 33px;
+  width: 185px;
+  background-color: #fffcf7;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
